@@ -2,6 +2,8 @@ package guru.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+// We will refactor these later to add JPA mapping
+
 public class Pet {
 
     private PetType petType;
