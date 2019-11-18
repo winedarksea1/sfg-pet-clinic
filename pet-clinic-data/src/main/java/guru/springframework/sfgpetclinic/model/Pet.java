@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 // We will refactor these later to add JPA mapping
 
-public class Pet {
+public class Pet extends BaseEntity {
 
     private PetType petType;
     private Owner owner;
